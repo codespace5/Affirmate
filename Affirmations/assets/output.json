@@ -1,0 +1,173 @@
+{
+    "fName": {
+        "type": "String",
+        "default": "HIMANSHI"
+    },
+    "lName": {
+        "type": "String",
+        "default": "AGRAWAL"
+    },
+    "email": {
+        "type": "String",
+        "required": true,
+        "unique": true
+    },
+    "number": {
+        "type": "String",
+        "default": "(+91) 9532613724"
+    },
+    "devAddress": {
+        "type": "String",
+        "default": ""
+    },
+    "devAddress2": {
+        "type": "String",
+        "default": ""
+    },
+    "devTellUrStory": {
+        "type": "String",
+        "default": ""
+    },
+    "devCity": {
+        "type": "String",
+        "default": ""
+    },
+    "devState": {
+        "type": "String",
+        "default": ""
+    },
+    "devAcademic": [
+        {
+            "institution": {
+                "type": "String",
+                "default": "Babasaheb Bhimrao Ambedkar University, Lucknow"
+            },
+            "specialization": {
+                "type": "String",
+                "default": "M.Tech(SE)"
+            },
+            "startDate": {
+                "type": "String",
+                "default": "2018"
+            },
+            "endDate": {
+                "type": "String",
+                "default": ""
+            }
+        }
+    ],
+    "devTools": [
+        {
+            "toolName": {
+                "type": "String",
+                "default": "Visual Studio 2017"
+            },
+            "toolExp": {
+                "type": "String",
+                "default": ""
+            },
+            "toolIcon": {
+                "type": "String",
+                "default": ""
+            }
+        }
+    ],
+    "devEmployment": [
+        {
+            "designation": {
+                "type": "String",
+                "default": "Technical Analyst"
+            },
+            "companyName": {
+                "type": "String",
+                "default": "Hexaware Technologies, Dehradun"
+            },
+            "from": {
+                "type": "String",
+                "default": "06, 2023"
+            },
+            "to": {
+                "type": "String",
+                "default": "Present"
+            },
+            "stillWorking": {
+                "type": "Boolean",
+                "default": true
+            },
+            "techUsed": [
+                {
+                    "value": {
+                        "type": "String",
+                        "default": "IT System Monitoring"
+                    },
+                    "label": {
+                        "type": "String",
+                        "default": ""
+                    }
+                }
+            ],
+            "toolUsed": [
+                {
+                    "value": {
+                        "type": "String",
+                        "default": "Visual Studio 2017"
+                    },
+                    "label": {
+                        "type": "String",
+                        "default": ""
+                    }
+                }
+            ],
+            "aboutRole": {
+                "type": "String",
+                "default": "Monitoring, designing, examining, and implementing a structured IT system"
+            },
+            "uniKey": {
+                "type": "String",
+                "default": ""
+            }
+        }
+    ],
+    "devTotalExperience": {
+        "type": "Number",
+        "default": 4
+    },
+    "devCertificates": [
+        {
+            "certificateName": {
+                "type": "String",
+                "default": "ISO certified in C and Java programming languages"
+            },
+            "certInstitution": {
+                "type": "String",
+                "default": ""
+            },
+            "startDate": {
+                "type": "String",
+                "default": ""
+            },
+            "endDate": {
+                "type": "String",
+                "default": ""
+            }
+        }
+    ],
+    "devSocialProfile": {
+        "gitHub": {
+            "type": "String",
+            "default": ""
+        },
+        "linkedin": {
+            "type": "String",
+            "default": "https://www.linkedin.com/in/himanshi-agrawal-ba2789264"
+        },
+        "facebook": {
+            "type": "String",
+            "default": ""
+        },
+        "twitter": {
+            "type": "String",
+            "default": ""
+        }
+    }
+}
